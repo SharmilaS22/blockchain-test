@@ -1,0 +1,43 @@
+$ truffle init
+
+- install ganache - make sure it's working
+- contracts - folder
+ - contains all the contracts
+
+$ truffle compile
+
+
+migrations
+ - change the state of blockchain
+ - js file - deploy contracts
+ - give number to specify the order 
+
+$ truffle migrate
+ - executes the migrations
+ - truffle uses the 1st account in ganache
+
+$ truffle console
+opens console
+TodoList.deployed()
+
+todolist.address // gives back address in teh blockchain
+
+--
+mapping (key_type => value_type) variable_name
+ - key-value pair
+ - dynamic size
+ - access - returns oen by one
+--
+Visibility ( public / external ) is not needed for constructors anymore: 
+To prevent a contract from being created, it can be marked abstract . 
+This makes the visibility concept for constructors obsolete.
+---
+
+$ truffle migrate --reset
+deploys a copy to blockchain
+
+---
+src folder contains - client side files
+
+bs-config file - configurations for routes etc
+for client side deploying
