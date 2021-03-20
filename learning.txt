@@ -41,3 +41,7 @@ src folder contains - client side files
 
 bs-config file - configurations for routes etc
 for client side deploying
+
+---
+npm run dev 
+to run client side 
