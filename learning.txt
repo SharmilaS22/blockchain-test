@@ -45,3 +45,12 @@ for client side deploying
 ---
 npm run dev 
 to run client side 
+---
+mochajs - testing library
+Chai assertion library
+
+for testing
+
+----------
+
+start variable with underscore - represents that its not state variable

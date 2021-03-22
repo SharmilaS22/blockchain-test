@@ -12,16 +12,17 @@
 
 <body>
 
-    <div class="container">
+    <div class="container mt-4">
         <div class="loader">Loading...</div>
         <div class="content">
             <div class="card shadow">
                 <!-- <div class="card-body">
                 Hello world
             </div> -->
-                <!-- <form action="" onsubmit="App.createTask()"></form> -->
-                <input type="text" name="" id="" place="Enter new task">
-                <button type="submit" class="btn btn-primary">Add</button>
+                <!-- <form action="" onsubmit="App.createTask()"> -->
+                    <input type="text"  class="form-control" name="" id="taskValue" placeholder="Enter new task">
+                    <input type="submit" class="btn" onclick="App.createTask()">
+                <!-- </form> -->
             </div>
             <div class="card shadow m-4">
                 <div class="items" id="tasks-list">
